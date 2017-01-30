@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+
+    <Button android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click To Add New row"></Button>
+
+    <ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0">
+
+            <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:text="textfield 1-1" android:layout_height="wrap_content" android:id="@+id/TextView01"></TextView>
+                <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_width="wrap_content"></ImageView>
+                <DigitalClock android:text="DigitalClock" android:layout_width="wrap_content" android:id="@+id/digitalClock1" android:layout_height="wrap_content"></DigitalClock>
+                <CheckBox android:id="@+id/CheckBox01" android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
